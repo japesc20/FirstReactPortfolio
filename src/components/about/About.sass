@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Barlow&display=swap')
+
+$primary-color: #6ace9c;
+
+a
+    color: white
+    &:hover
+        color: $primary-color
+body
+    color: white
+.about-container
+    width: 100%
+    height: 80vh
+    display: flex
+    align-items: center
+    justify-content: center
+
+    .left-container
+        display: flex
+        flex-direction: column
+        width: 40%
+        margin-left: auto
+        margin-right: auto
+        
+        .title
+            display: flex
+            align-items: center
+            margin-bottom: 20px
+            h1
+                font-size: 1rem
+                color: $primary-color
+            .title-bar
+                width: 20%
+                height: 1px
+                background-color: $primary-color
+                margin: 3px 0 0 3px
+        .quote
+            h2
+            font-size: 1rem
+            font-family: Trebuchet MS
+            margin-bottom: 50px
+
+    .right-container
+        display: flex
+        flex-direction: column
+        width: 40%
+        
+        .query
+            font-size: 2rem
+            font-style: italic
+            .arrow
+                margin-left: 50%

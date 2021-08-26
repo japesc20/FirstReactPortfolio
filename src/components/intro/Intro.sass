@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Barlow&family=Raleway:wght@900&display=swap');
+
+$primary-color: #6ace9c;
+$shadow: #000000
+
+*
+    background-color: #101936
+    
+.intro
+    display: flex
+    width: 100%
+    height: calc( 100vh - 80px )
+    background-color: #101936
+    color: #ffffff
+    .social-container
+        min-width: 70px
+        height: 350px
+        display: flex
+        align-items: center
+        justify-content: center
+        box-shadow: 2px 5px 20px $shadow
+        position: absolute
+        top: 37%
+    .social
+        display: flex
+        flex-direction: column
+    .icon
+        cursor: pointer
+        font-size: 1.7rem
+        margin: 15px 0 15px 0
+        &:hover
+            color: $primary-color
+    .intro-container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-left: 10%
+        margin-right: 10%
+        width: 600px
+        font-family: 'Barlow'
+    .hello
+        font-size: 2rem
+        
+    .name
+        font-family: 'Raleway'
+        font-size: 3.5rem
+        margin-top: 10px
+        white-space: nowrap
+    .title
+        font-size: 1.6rem
+        margin-top: 15px
+    .bio
+        font-size: 1rem
+        margin-top: 50px
+    // .social-container
+    //     display: flex
+    //     align-items: center
+    //     justify-content: center
+    //     .social
+    //         width: 12rem
+    //         font-size: 1.5rem
+    //         display: flex
+    //         align-items: center
+    //         justify-content: center
+    //         padding: 30px
+    //         .icon
+    //             cursor: pointer
+    //             margin: 0 10px 0 10px
+    //             &:hover
+    //                 color: $primary-color
+    .picture-container
+        display: flex
+        align-items: center
+        min-width: 800px
+        margin-right: 5% 
+        .profile-pic
+            width: 100%
+            opacity: 0.5
